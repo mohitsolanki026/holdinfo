@@ -1,0 +1,30 @@
+.main{
+    padding: 0 5%;
+}
+.bestTrade{
+    text-align: center;
+
+    font-size: xx-large;
+
+}
+.mainValues{
+    display: flex;;
+    align-items: center;
+    justify-content: space-between;
+    color: #3dc6c1;
+}
+.Price{
+    font-size: 80px;
+    color: white;
+}
+
+h1{
+    margin: 0%;
+    font-size: 250%;
+}
+p{
+    margin: 0;
+    font-size: larger;
+    color: #888686;
+    text-align: center;
+}

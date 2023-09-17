@@ -1,0 +1,21 @@
+.app{
+    background-color: #191d28;
+    color: white;
+    height: 100vh;
+}
+.addPortfolio{
+    padding: 10px;
+    background-color: #2e3241;
+    border: 2px solid #3dc6c1;
+    color: #3dc6c1;
+    font-size: x-large;
+  }
+  .addPortfolio:hover{
+    background-color: #3dc6c1;
+    color: white;
+  }
+  .Portfolio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,25 @@
+/* footer.css */
+.table {
+    box-sizing: border-box;
+    padding: 5% 2%;
+    width: 100%; /* Make the container occupy the full screen width */
+    overflow-x: auto; /* Add horizontal scroll if content overflows */
+    text-align: center;
+  }
+  
+  table {
+    width: 100%; 
+    border-collapse: collapse; 
+  
+  }
+  
+  tbody tr{
+    background-color: #2e3241;
+  }
+  
+.tableRaw {
+    margin: 0px;
+    background-color: #2e3241; 
+    border-radius: 10px;
+  }
+

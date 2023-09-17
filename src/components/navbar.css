@@ -1,0 +1,119 @@
+.nav-box{
+  margin: 0;
+    padding:2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading{
+    color: #5dc7c2;
+    margin: 0;
+    font-size: 350%;
+    font: bolder;
+}
+
+.buy{
+    margin: 5px;
+    background-color: #2e3241;
+    color: white;
+    padding: 12px;
+    border-radius: 10%;
+    font-size: large;
+    font: bold;
+    border: none;
+}
+
+#currency{
+    margin: 5px;
+    background-color: #2e3241;
+    color: white;
+    padding: 12px;
+    border-radius: 10%;
+    font-size: large;
+    font: bold;
+    border: none;
+}
+.option{
+    padding: 12px;
+    margin: 12px; 
+    text-transform: uppercase;
+}
+.side-bar{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.timmer{
+  border: 5px solid #5dc7c2;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.telegram{
+    margin: 5px;
+    color: white;
+    background-color: #5dc7c2;
+    padding: 12px;
+    border-radius: 10%;
+    font-size: large;
+    font: bolder;
+    font-size: larger;
+    border: none;
+}
+
+/* CSS for the slide-toggle button */
+
+
+.slide-toggle {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+  }
+  
+  .slide-toggle input {
+    display: none;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: -4px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: 0.4s;
+    border-radius: 15px;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: 0.4s;
+    border-radius: 50%;
+  }
+  
+  input:checked + .slider {
+    background-color: #5dc7c2;
+  }
+  
+  input:checked + .slider:before {
+    transform: translateX(30px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  
